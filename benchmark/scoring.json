@@ -1,0 +1,29 @@
+{
+  "id": "cnwb-story32-v1",
+  "suite": "STORY32-v2-r10-development",
+  "protocol": "STORY32-SJ6-r0-development",
+  "dimensions": {
+    "T1": "叙事推进与结构",
+    "T2": "人物与关系",
+    "T3": "场景与世界",
+    "T4": "叙述与语言",
+    "T5": "意义与经验",
+    "T6": "有效新意"
+  },
+  "weights": {
+    "T1": 0.2,
+    "T2": 0.2,
+    "T3": 0.15,
+    "T4": 0.2,
+    "T5": 0.15,
+    "T6": 0.1
+  },
+  "planning_tasks": [
+    "S01",
+    "S02",
+    "S03",
+    "O01"
+  ],
+  "expected_tasks": 32,
+  "score_scale": "dimension mean * 20; total = weighted sum; theoretical range20–100"
+}

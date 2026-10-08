@@ -1,0 +1,10 @@
+* text=auto eol=lf
+benchmark/** -text
+tools/protocol.py -text
+tools/sj6_kernel.py -text
+LICENSE -text
+LICENSE-DATA -text
+results/published-leaderboard.json -text
+examples/** -text
+source-manifest.json -text
+release-manifest.json -text

@@ -1,0 +1,2860 @@
+{
+  "schema_version": 1,
+  "benchmark_id": "cnwb-story32-v1",
+  "id": "synthetic-evaluation",
+  "generation_id": "synthetic-run",
+  "judge_id": "synthetic-judge-a",
+  "protocol_id": "sj6-r0",
+  "revision": 1,
+  "synthetic": true,
+  "reviews": [
+    {
+      "task_id": "S01",
+      "answer_sha256": "df4d36fc9a437fc402a4c2666754b17021103560ffb1d865018a38bf65f2825a",
+      "B1": {
+        "protocol": "STORY32-SJ6-r0-development",
+        "task_id": "S32V2R10-S01",
+        "artifact_step": "main",
+        "answer_sha256": "df4d36fc9a437fc402a4c2666754b17021103560ffb1d865018a38bf65f2825a",
+        "stage": "B1",
+        "delivery": "delivered",
+        "dimensions": {
+          "T3": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 S01】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T5": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 S01】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T6": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 S01】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          }
+        },
+        "compliance": [],
+        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "task_sha256": "91bc147227150fc34faf9925c8905c43358adc866bb8c2a66e86e2ffae1bc792"
+      }
+    },
+    {
+      "task_id": "S02",
+      "answer_sha256": "059f31b15652946ff80a29b0a7ce08d0a3e658e42cd7b32efb3bb0497ea99d6f",
+      "B1": {
+        "protocol": "STORY32-SJ6-r0-development",
+        "task_id": "S32V2R10-S02",
+        "artifact_step": "main",
+        "answer_sha256": "059f31b15652946ff80a29b0a7ce08d0a3e658e42cd7b32efb3bb0497ea99d6f",
+        "stage": "B1",
+        "delivery": "delivered",
+        "dimensions": {
+          "T2": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 S02】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T3": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 S02】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T5": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 S02】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          }
+        },
+        "compliance": [],
+        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "task_sha256": "303f25a719e2f94be9c293266842b7d4614e3b73560d25c647c843b4e0bf3fd8"
+      }
+    },
+    {
+      "task_id": "S03",
+      "answer_sha256": "3901da8918e87255410e6450ab7ff6653732fa511dcee3b41a465aeee739a99c",
+      "B1": {
+        "protocol": "STORY32-SJ6-r0-development",
+        "task_id": "S32V2R10-S03",
+        "artifact_step": "main",
+        "answer_sha256": "3901da8918e87255410e6450ab7ff6653732fa511dcee3b41a465aeee739a99c",
+        "stage": "B1",
+        "delivery": "delivered",
+        "dimensions": {
+          "T2": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 S03】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T3": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 S03】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T6": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 S03】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          }
+        },
+        "compliance": [],
+        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "task_sha256": "fb410ee2168ac38ba7d271e81bb7a65aba9bde4de04caa62734a80d6f0398b2f"
+      }
+    },
+    {
+      "task_id": "O01",
+      "answer_sha256": "64444647a299090bd38bef95cb2af479e5678ae71a03d66f0e8fa8d40d7e3c39",
+      "B1": {
+        "protocol": "STORY32-SJ6-r0-development",
+        "task_id": "S32V2R10-O01",
+        "artifact_step": "main",
+        "answer_sha256": "64444647a299090bd38bef95cb2af479e5678ae71a03d66f0e8fa8d40d7e3c39",
+        "stage": "B1",
+        "delivery": "delivered",
+        "dimensions": {
+          "T1": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 O01】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T2": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 O01】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T5": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 O01】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          }
+        },
+        "compliance": [],
+        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "task_sha256": "d4d697a1c39a4fddac305f27549b487990d33164cf3047a56e046b78cd906e43"
+      }
+    },
+    {
+      "task_id": "A02",
+      "answer_sha256": "76f55fb5616a0bc25468857e0b690d92f51400cf26ab230e5eb201bb9d16bf3b",
+      "B1": {
+        "protocol": "STORY32-SJ6-r0-development",
+        "task_id": "S32V2R10-A02",
+        "artifact_step": "main",
+        "answer_sha256": "76f55fb5616a0bc25468857e0b690d92f51400cf26ab230e5eb201bb9d16bf3b",
+        "stage": "B1",
+        "delivery": "delivered",
+        "dimensions": {
+          "T4": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 A02】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T5": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 A02】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T6": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 A02】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          }
+        },
+        "compliance": [],
+        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "task_sha256": "1b4f0e9e9050b2326868d29f96a72947aab2212d244d8b65577a6baae3d834f6"
+      }
+    },
+    {
+      "task_id": "A03",
+      "answer_sha256": "28b132c6736ace096e3b11cfec4dec0f6e92f3088d329d36dcf12d7970d8e3c4",
+      "B1": {
+        "protocol": "STORY32-SJ6-r0-development",
+        "task_id": "S32V2R10-A03",
+        "artifact_step": "main",
+        "answer_sha256": "28b132c6736ace096e3b11cfec4dec0f6e92f3088d329d36dcf12d7970d8e3c4",
+        "stage": "B1",
+        "delivery": "delivered",
+        "dimensions": {
+          "T2": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 A03】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T4": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 A03】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T6": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 A03】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          }
+        },
+        "compliance": [],
+        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "task_sha256": "ce39e3055c453553e301e84fe9ba693102bcab2e6d7e5f8368a040270dc2d992"
+      }
+    },
+    {
+      "task_id": "A04",
+      "answer_sha256": "414948d12207e6100b31643f62a19e70ddf87410fe58e1e2e26d55087a1eb9c3",
+      "B1": {
+        "protocol": "STORY32-SJ6-r0-development",
+        "task_id": "S32V2R10-A04",
+        "artifact_step": "main",
+        "answer_sha256": "414948d12207e6100b31643f62a19e70ddf87410fe58e1e2e26d55087a1eb9c3",
+        "stage": "B1",
+        "delivery": "delivered",
+        "dimensions": {
+          "T1": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 A04】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T3": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 A04】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T4": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 A04】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          }
+        },
+        "compliance": [],
+        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "task_sha256": "2552ee18eb4dfc5ef4f97770ddf561992827f55132382ccb2b709148e98517dd"
+      }
+    },
+    {
+      "task_id": "A05",
+      "answer_sha256": "655eea40bf1ec1d65a376a5cc28e087bd14e9950a286bc0ef6535d2a287e1657",
+      "B1": {
+        "protocol": "STORY32-SJ6-r0-development",
+        "task_id": "S32V2R10-A05",
+        "artifact_step": "main",
+        "answer_sha256": "655eea40bf1ec1d65a376a5cc28e087bd14e9950a286bc0ef6535d2a287e1657",
+        "stage": "B1",
+        "delivery": "delivered",
+        "dimensions": {
+          "T1": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 A05】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T3": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 A05】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T4": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 A05】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          }
+        },
+        "compliance": [],
+        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "task_sha256": "8a7c247199c9c33be5ed8d3745b15cd41cea3985dda90896b488b0f0c95e7f20"
+      }
+    },
+    {
+      "task_id": "A06",
+      "answer_sha256": "9b25ce25a8d9dd2900a0cd3949d56a80a8b2b6328d37e43a0339dec58ba3d2b2",
+      "B1": {
+        "protocol": "STORY32-SJ6-r0-development",
+        "task_id": "S32V2R10-A06",
+        "artifact_step": "main",
+        "answer_sha256": "9b25ce25a8d9dd2900a0cd3949d56a80a8b2b6328d37e43a0339dec58ba3d2b2",
+        "stage": "B1",
+        "delivery": "delivered",
+        "dimensions": {
+          "T1": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 A06】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T2": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 A06】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T4": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 A06】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          }
+        },
+        "compliance": [],
+        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "task_sha256": "38c3cce6a581d9a4d16ec899da0cf0d7dcf31aeb53560a5b25e0fbaa8193d5ef"
+      }
+    },
+    {
+      "task_id": "A07",
+      "answer_sha256": "6c6cf7d1c0e7fe2747f1dcf3d7982ec5979e71398ea23e92a21970bfca1113d1",
+      "B1": {
+        "protocol": "STORY32-SJ6-r0-development",
+        "task_id": "S32V2R10-A07",
+        "artifact_step": "main",
+        "answer_sha256": "6c6cf7d1c0e7fe2747f1dcf3d7982ec5979e71398ea23e92a21970bfca1113d1",
+        "stage": "B1",
+        "delivery": "delivered",
+        "dimensions": {
+          "T1": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 A07】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T3": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 A07】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T5": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 A07】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          }
+        },
+        "compliance": [],
+        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "task_sha256": "51bb7611b3901d488caeb562993eff426ea8efbd4bc2fe9a6d173874cd47be8f"
+      }
+    },
+    {
+      "task_id": "A08",
+      "answer_sha256": "4fab480d5b3436301e66b70217ed7b45e91bb498544c3c193e7e70bab4faa6ea",
+      "B1": {
+        "protocol": "STORY32-SJ6-r0-development",
+        "task_id": "S32V2R10-A08",
+        "artifact_step": "main",
+        "answer_sha256": "4fab480d5b3436301e66b70217ed7b45e91bb498544c3c193e7e70bab4faa6ea",
+        "stage": "B1",
+        "delivery": "delivered",
+        "dimensions": {
+          "T1": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 A08】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T2": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 A08】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T5": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 A08】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          }
+        },
+        "compliance": [],
+        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "task_sha256": "a4b3c5610517ca6b161ddb49290fddda5c248f75dc063d86ec0febc79ffd04af"
+      }
+    },
+    {
+      "task_id": "A09",
+      "answer_sha256": "861cf5b99c613ab8db88494b84338dbc84651cc0b2f9bcd607f834e959e630cd",
+      "B1": {
+        "protocol": "STORY32-SJ6-r0-development",
+        "task_id": "S32V2R10-A09",
+        "artifact_step": "main",
+        "answer_sha256": "861cf5b99c613ab8db88494b84338dbc84651cc0b2f9bcd607f834e959e630cd",
+        "stage": "B1",
+        "delivery": "delivered",
+        "dimensions": {
+          "T2": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 A09】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T4": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 A09】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T5": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 A09】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          }
+        },
+        "compliance": [],
+        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "task_sha256": "06ca2f140212f118e91efe80c0c9ec9f04af86c9400b49a98b6967245034b38d"
+      }
+    },
+    {
+      "task_id": "A10",
+      "answer_sha256": "504cafa1df3cdae60ab8d271ca3405a3730f71ed61caf6b4054e7810eb695a74",
+      "B1": {
+        "protocol": "STORY32-SJ6-r0-development",
+        "task_id": "S32V2R10-A10",
+        "artifact_step": "main",
+        "answer_sha256": "504cafa1df3cdae60ab8d271ca3405a3730f71ed61caf6b4054e7810eb695a74",
+        "stage": "B1",
+        "delivery": "delivered",
+        "dimensions": {
+          "T1": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 A10】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T4": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 A10】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T6": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 A10】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          }
+        },
+        "compliance": [],
+        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "task_sha256": "c10a49e28b8934716c6402588c5a4dae234c9e7cf082e6ca335b45cb0c10b6b6"
+      }
+    },
+    {
+      "task_id": "A11",
+      "answer_sha256": "a25d75f553ccdbe9e31af7d5caa00ebd47638798eb45ed25c1372ee8fc2d2442",
+      "B1": {
+        "protocol": "STORY32-SJ6-r0-development",
+        "task_id": "S32V2R10-A11",
+        "artifact_step": "main",
+        "answer_sha256": "a25d75f553ccdbe9e31af7d5caa00ebd47638798eb45ed25c1372ee8fc2d2442",
+        "stage": "B1",
+        "delivery": "delivered",
+        "dimensions": {
+          "T1": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 A11】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T4": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 A11】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T6": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 A11】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          }
+        },
+        "compliance": [],
+        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "task_sha256": "caa73c8ba1c034f3e3a23a170e15ca4002fe139ec319e0c0e83f4806c79367b2"
+      }
+    },
+    {
+      "task_id": "A13",
+      "answer_sha256": "083a753904cbf27efb56789b49de9d32a3a2ffe8da5cbb223729a57473089913",
+      "B1": {
+        "protocol": "STORY32-SJ6-r0-development",
+        "task_id": "S32V2R10-A13",
+        "artifact_step": "main",
+        "answer_sha256": "083a753904cbf27efb56789b49de9d32a3a2ffe8da5cbb223729a57473089913",
+        "stage": "B1",
+        "delivery": "delivered",
+        "dimensions": {
+          "T2": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 A13】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T4": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 A13】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T5": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 A13】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          }
+        },
+        "compliance": [],
+        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "task_sha256": "8080b7c7479a62a68f5f01871fd030e0b26f31d76bfa0655966c40773a327118"
+      }
+    },
+    {
+      "task_id": "A14",
+      "answer_sha256": "00f51c35347a320a24a6744e1f81b24c393b7e1df206f5410edcaf7e60ffbc3f",
+      "B1": {
+        "protocol": "STORY32-SJ6-r0-development",
+        "task_id": "S32V2R10-A14",
+        "artifact_step": "main",
+        "answer_sha256": "00f51c35347a320a24a6744e1f81b24c393b7e1df206f5410edcaf7e60ffbc3f",
+        "stage": "B1",
+        "delivery": "delivered",
+        "dimensions": {
+          "T1": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 A14】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T4": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 A14】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T5": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 A14】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          }
+        },
+        "compliance": [],
+        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "task_sha256": "dd489d824f62e1afde331aef74ddbaf60596bb7279f1e0d1b1cc4ab0b88d1dbb"
+      }
+    },
+    {
+      "task_id": "A15",
+      "answer_sha256": "8870f2df3889fc57c35d9c5a2d79afba33e18d5c046f7667ecd50128dc504f26",
+      "B1": {
+        "protocol": "STORY32-SJ6-r0-development",
+        "task_id": "S32V2R10-A15",
+        "artifact_step": "main",
+        "answer_sha256": "8870f2df3889fc57c35d9c5a2d79afba33e18d5c046f7667ecd50128dc504f26",
+        "stage": "B1",
+        "delivery": "delivered",
+        "dimensions": {
+          "T1": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 A15】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T3": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 A15】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T6": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 A15】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          }
+        },
+        "compliance": [],
+        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "task_sha256": "ce62a0d173040117dc9ee2ea44aa793f27e24e67d0ebca022008d7b328e7181e"
+      }
+    },
+    {
+      "task_id": "A16",
+      "answer_sha256": "109dd5a4b1d3b151f99c830825c05abe188419863a4ce9da060118ed9c637e25",
+      "B1": {
+        "protocol": "STORY32-SJ6-r0-development",
+        "task_id": "S32V2R10-A16",
+        "artifact_step": "main",
+        "answer_sha256": "109dd5a4b1d3b151f99c830825c05abe188419863a4ce9da060118ed9c637e25",
+        "stage": "B1",
+        "delivery": "delivered",
+        "dimensions": {
+          "T1": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 A16】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T5": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 A16】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T6": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 A16】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          }
+        },
+        "compliance": [],
+        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "task_sha256": "30b40ebe0624072f976e7ffb3c8e3469826ed30f44f199ef07381161f9b6955c"
+      }
+    },
+    {
+      "task_id": "P01",
+      "answer_sha256": "106bc826ee3a509cb82085020d821f6106ea5c4f8962aaa7a0c2320f6ed81006",
+      "B1": {
+        "protocol": "STORY32-SJ6-r0-development",
+        "task_id": "S32V2R10-P01",
+        "artifact_step": "main",
+        "answer_sha256": "106bc826ee3a509cb82085020d821f6106ea5c4f8962aaa7a0c2320f6ed81006",
+        "stage": "B1",
+        "delivery": "delivered",
+        "dimensions": {
+          "T1": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 P01】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T3": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 P01】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T4": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 P01】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          }
+        },
+        "compliance": [],
+        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "task_sha256": "106b46dfd009f8fa548c727e36946d89989be7cc0a4adfd59a5efaad4305554a"
+      }
+    },
+    {
+      "task_id": "P02",
+      "answer_sha256": "df0d76e0b20d449d109f62fa307a3757a7b7e68f84d862af906bee898c024e4b",
+      "B1": {
+        "protocol": "STORY32-SJ6-r0-development",
+        "task_id": "S32V2R10-P02",
+        "artifact_step": "main",
+        "answer_sha256": "df0d76e0b20d449d109f62fa307a3757a7b7e68f84d862af906bee898c024e4b",
+        "stage": "B1",
+        "delivery": "delivered",
+        "dimensions": {
+          "T1": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 P02】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T2": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 P02】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T3": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 P02】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          }
+        },
+        "compliance": [],
+        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "task_sha256": "e5636a7f87f782442f568b40540ba7f686a5e4d039674c78c2c6b18ddf93c9aa"
+      }
+    },
+    {
+      "task_id": "P03",
+      "answer_sha256": "1fee0b8a2cc0a05c6197e3c1938ce92a689a79827cf7ea6133fd53d6378ceafc",
+      "B1": {
+        "protocol": "STORY32-SJ6-r0-development",
+        "task_id": "S32V2R10-P03",
+        "artifact_step": "main",
+        "answer_sha256": "1fee0b8a2cc0a05c6197e3c1938ce92a689a79827cf7ea6133fd53d6378ceafc",
+        "stage": "B1",
+        "delivery": "delivered",
+        "dimensions": {
+          "T2": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 P03】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T3": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 P03】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T6": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 P03】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          }
+        },
+        "compliance": [],
+        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "task_sha256": "2b45783136976bf998b586363e6f067c56b67d348345b66d7c16ebe872b7dd2b"
+      }
+    },
+    {
+      "task_id": "P05",
+      "answer_sha256": "3c3a1f6d07b6ad1e176a6d3bc536d66a4f2c838bb35beefcb76f1a8824eaffd4",
+      "B1": {
+        "protocol": "STORY32-SJ6-r0-development",
+        "task_id": "S32V2R10-P05",
+        "artifact_step": "main",
+        "answer_sha256": "3c3a1f6d07b6ad1e176a6d3bc536d66a4f2c838bb35beefcb76f1a8824eaffd4",
+        "stage": "B1",
+        "delivery": "delivered",
+        "dimensions": {
+          "T1": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 P05】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T3": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 P05】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T4": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 P05】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          }
+        },
+        "compliance": [],
+        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "task_sha256": "1c9e6776b3f742156ca87fa472b10831d4c69aedfa1ed121ea51199438fc6757"
+      }
+    },
+    {
+      "task_id": "P06",
+      "answer_sha256": "584ae28558902ecaf8041bddde1c10de7621f1d91c2a54254b80c0dac5218245",
+      "B1": {
+        "protocol": "STORY32-SJ6-r0-development",
+        "task_id": "S32V2R10-P06",
+        "artifact_step": "main",
+        "answer_sha256": "584ae28558902ecaf8041bddde1c10de7621f1d91c2a54254b80c0dac5218245",
+        "stage": "B1",
+        "delivery": "delivered",
+        "dimensions": {
+          "T2": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 P06】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T3": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 P06】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T4": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 P06】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          }
+        },
+        "compliance": [],
+        "source_sha256": "45a447637c1b36faae1e05f8b298b834b7822adb167b7b7392be5850bce15017",
+        "task_sha256": "d9cb14a2ebaf19df614d8d1012685da78653233026b5e94d074c509679fe6ca9"
+      }
+    },
+    {
+      "task_id": "P07",
+      "answer_sha256": "84692b12b98b36edce454ec066e20b42d8d3390e6c34b7fe43b34ea0a0ea3a53",
+      "B1": {
+        "protocol": "STORY32-SJ6-r0-development",
+        "task_id": "S32V2R10-P07",
+        "artifact_step": "main",
+        "answer_sha256": "84692b12b98b36edce454ec066e20b42d8d3390e6c34b7fe43b34ea0a0ea3a53",
+        "stage": "B1",
+        "delivery": "delivered",
+        "dimensions": {
+          "T1": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 P07】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T4": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 P07】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T6": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 P07】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          }
+        },
+        "compliance": [],
+        "source_sha256": "3aaf90ea7ca773d8045b42a79c7fd5d8e3f5c2d3f04646df02628a4b60a0237a",
+        "task_sha256": "6f4b1445a900cd911bf73912ac8975d4f24ff5748f2c5179094d79e64faef436"
+      }
+    },
+    {
+      "task_id": "P08",
+      "answer_sha256": "adb51c2bc68fa1a0330ab46c6bab97b7e37e2f6211c6f3de6bb20fd0e8632f87",
+      "B1": {
+        "protocol": "STORY32-SJ6-r0-development",
+        "task_id": "S32V2R10-P08",
+        "artifact_step": "main",
+        "answer_sha256": "adb51c2bc68fa1a0330ab46c6bab97b7e37e2f6211c6f3de6bb20fd0e8632f87",
+        "stage": "B1",
+        "delivery": "delivered",
+        "dimensions": {
+          "T2": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 P08】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T4": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 P08】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T6": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 P08】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          }
+        },
+        "compliance": [],
+        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "task_sha256": "beb54a99637663c3ea330fb056e6bac994e473c4e4047b463de66a535bbaaaba"
+      }
+    },
+    {
+      "task_id": "P10",
+      "answer_sha256": "d05fe9e8d5bba7246e8facdfb1117372d2ee5f85156be0a73b7ebe20fcc6475f",
+      "B1": {
+        "protocol": "STORY32-SJ6-r0-development",
+        "task_id": "S32V2R10-P10",
+        "artifact_step": "main",
+        "answer_sha256": "d05fe9e8d5bba7246e8facdfb1117372d2ee5f85156be0a73b7ebe20fcc6475f",
+        "stage": "B1",
+        "delivery": "delivered",
+        "dimensions": {
+          "T1": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 P10】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T4": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 P10】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T6": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 P10】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          }
+        },
+        "compliance": [],
+        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "task_sha256": "7503ecf2d3789c5829ff3a5c0414c6e1b6edbf9bd359a7336e930a3bf57157a8"
+      }
+    },
+    {
+      "task_id": "P11",
+      "answer_sha256": "3b509d863fc92dcbaf5c5c8d1037d855d5208b2a94edec3825e0306dcd7aaa2c",
+      "B1": {
+        "protocol": "STORY32-SJ6-r0-development",
+        "task_id": "S32V2R10-P11",
+        "artifact_step": "main",
+        "answer_sha256": "3b509d863fc92dcbaf5c5c8d1037d855d5208b2a94edec3825e0306dcd7aaa2c",
+        "stage": "B1",
+        "delivery": "delivered",
+        "dimensions": {
+          "T1": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 P11】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T2": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 P11】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T3": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 P11】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          }
+        },
+        "compliance": [],
+        "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "task_sha256": "c5346c809e1c0d2f2fedf2003a885b956530794fcf2c7d0099c0fb44f288baab"
+      }
+    },
+    {
+      "task_id": "R03",
+      "answer_sha256": "2058d74a00aabb565793418b287f712110125470556fa49cd660fc785cc56aac",
+      "B1": {
+        "protocol": "STORY32-SJ6-r0-development",
+        "task_id": "S32V2R10-R03",
+        "artifact_step": "main",
+        "answer_sha256": "2058d74a00aabb565793418b287f712110125470556fa49cd660fc785cc56aac",
+        "stage": "B1",
+        "delivery": "delivered",
+        "dimensions": {
+          "T4": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 R03】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T5": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 R03】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T6": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 R03】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          }
+        },
+        "compliance": [],
+        "source_sha256": "f8f399b641b900630d6db1645eed698644dab087351caba738da318da9cdf4b6",
+        "task_sha256": "636145d78e9878064fb6478da8e3744c0dac747b1a99edeef1a8b8f555e65f4d"
+      }
+    },
+    {
+      "task_id": "R04",
+      "answer_sha256": "61e59107ccec8aed9bb8466c26ed831105a004d2b844d431ba76e9e66d7c4d97",
+      "B1": {
+        "protocol": "STORY32-SJ6-r0-development",
+        "task_id": "S32V2R10-R04",
+        "artifact_step": "main",
+        "answer_sha256": "61e59107ccec8aed9bb8466c26ed831105a004d2b844d431ba76e9e66d7c4d97",
+        "stage": "B1",
+        "delivery": "delivered",
+        "dimensions": {
+          "T1": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 R04】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T2": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 R04】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T3": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 R04】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          }
+        },
+        "compliance": [],
+        "source_sha256": "81b6920cc48823ba10c3e848167819bf0a2f6f24463cd6867af97b94cf51bce4",
+        "task_sha256": "e18f99bff7f985d114f5750725567ef7cca835ccd775f896bf90eb0655249ea8"
+      }
+    },
+    {
+      "task_id": "X01",
+      "answer_sha256": "0c5eec65435fd011811e5e0352dc25fc1eadac327d0e9b39d1286951ff0a4391",
+      "B1": {
+        "protocol": "STORY32-SJ6-r0-development",
+        "task_id": "S32V2R10-X01",
+        "artifact_step": "main",
+        "answer_sha256": "0c5eec65435fd011811e5e0352dc25fc1eadac327d0e9b39d1286951ff0a4391",
+        "stage": "B1",
+        "delivery": "delivered",
+        "dimensions": {
+          "T2": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 X01】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T4": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 X01】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T6": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 X01】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          }
+        },
+        "compliance": [],
+        "source_sha256": "6789459e45c5a0c368bb9c09428d0b2343b93df1590596b2682703734c714215",
+        "task_sha256": "4b56f1096b0bc287879a5a6625482b985fa845bd228ef4156b6bcb510d79f9f3"
+      }
+    },
+    {
+      "task_id": "X03",
+      "answer_sha256": "f2ddb465d2e967aaa40286832307c86c3fcd24fd7840c96f66b144647ecd0fb9",
+      "B1": {
+        "protocol": "STORY32-SJ6-r0-development",
+        "task_id": "S32V2R10-X03",
+        "artifact_step": "main",
+        "answer_sha256": "f2ddb465d2e967aaa40286832307c86c3fcd24fd7840c96f66b144647ecd0fb9",
+        "stage": "B1",
+        "delivery": "delivered",
+        "dimensions": {
+          "T1": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 X03】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T2": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 X03】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T6": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 X03】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          }
+        },
+        "compliance": [],
+        "source_sha256": "b0feae7c880479fe7ac11e0cbc735e2c455e00bccd59ba36d7018049ac4a0e93",
+        "task_sha256": "a61c2adb31db8e31736bce7093507c530c74379dc3577b9a0e82a528a4018347"
+      }
+    },
+    {
+      "task_id": "X04",
+      "answer_sha256": "618dfe7235b5d0b52295cda5cbb58dbdc3256ab99a60255dc67d7e75622a8098",
+      "B1": {
+        "protocol": "STORY32-SJ6-r0-development",
+        "task_id": "S32V2R10-X04",
+        "artifact_step": "main",
+        "answer_sha256": "618dfe7235b5d0b52295cda5cbb58dbdc3256ab99a60255dc67d7e75622a8098",
+        "stage": "B1",
+        "delivery": "delivered",
+        "dimensions": {
+          "T3": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 X04】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T4": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 X04】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          },
+          "T5": {
+            "given": "Synthetic contract fixture; no literary judgment.",
+            "achievement": "Synthetic contract fixture; no literary judgment.",
+            "mechanism": "Synthetic contract fixture; no literary judgment.",
+            "scope": "Synthetic contract fixture; no literary judgment.",
+            "above_three": "",
+            "limitation": "Synthetic contract fixture; no literary judgment.",
+            "issues": [],
+            "evidence": [
+              {
+                "part": "answer",
+                "quote": "【合成格式样例 X04】这不是模型作品，也不是文学评分示例。仅用于验证哈希、阶段和算术。",
+                "effect": "Synthetic fixture only."
+              }
+            ],
+            "expression": {
+              "state": "controlled",
+              "distribution": "Synthetic fixture.",
+              "basis": "Synthetic fixture."
+            },
+            "unassessable_reason": "",
+            "relations": [],
+            "grade": 3
+          }
+        },
+        "compliance": [],
+        "source_sha256": "1926f725cb3411704d63dff7d500d5ddf99ddb33627fd61680de0f8729b6d1ad",
+        "task_sha256": "432c99bfa2953a9969d59883990a727869bd76563a8575d01734ad5d40ba21d3"
+      }
+    }
+  ]
+}

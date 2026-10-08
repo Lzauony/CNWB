@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CNWB public evaluation exchange",
+  "description": "Each B1/B2 also needs the exact work-bound dynamic SJ6 schema and stage checks.",
+  "type": "object",
+  "required": ["schema_version", "benchmark_id", "id", "generation_id", "judge_id", "protocol_id", "revision", "reviews"],
+  "properties": {
+    "schema_version": {"const": 1, "type": "integer"},
+    "benchmark_id": {"const": "cnwb-story32-v1"},
+    "id": {"type": "string", "pattern": "^[a-zA-Z0-9][a-zA-Z0-9._-]{0,180}$"},
+    "generation_id": {"type": "string"}, "judge_id": {"type": "string"},
+    "protocol_id": {"const": "sj6-r0"}, "revision": {"type": "integer", "minimum": 1},
+    "synthetic": {"type": "boolean"},
+    "reviews": {"type": "array", "maxItems": 32, "items": {
+      "type": "object", "required": ["task_id", "answer_sha256", "B1"],
+      "properties": {
+        "task_id": {"type": "string"},
+        "answer_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "B1": {"type": "object"}, "B2": {"type": ["object", "null"]},
+        "projection": {"type": "object"}
+      }
+    }}
+  }
+}

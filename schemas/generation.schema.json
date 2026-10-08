@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CNWB public generation exchange",
+  "type": "object",
+  "required": ["schema_version", "benchmark_id", "id", "model_id", "works"],
+  "properties": {
+    "schema_version": {"const": 1, "type": "integer"},
+    "benchmark_id": {"const": "cnwb-story32-v1"},
+    "id": {"type": "string", "pattern": "^[a-zA-Z0-9][a-zA-Z0-9._-]{0,180}$"},
+    "model_id": {"type": "string", "pattern": "^[a-zA-Z0-9][a-zA-Z0-9._-]{0,180}$"},
+    "synthetic": {"type": "boolean"},
+    "works": {"type": "array", "maxItems": 32, "items": {
+      "type": "object", "required": ["task_id", "text", "sha256"],
+      "properties": {
+        "task_id": {"type": "string"}, "text": {"type": "string"},
+        "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "generation": {"type": "object"}
+      }
+    }}
+  }
+}
