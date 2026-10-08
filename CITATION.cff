@@ -4,7 +4,7 @@ title: "CNWB: Chinese Narrative Writing Benchmark"
 type: software
 authors:
   - name: "CNWB contributors"
-version: 1.0.3
+version: 1.0.4
 date-released: "2026-10-08"
 license:
   - MIT

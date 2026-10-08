@@ -16,3 +16,5 @@ jobs:
           python-version: ${{ matrix.python }}
       - run: python -B -X utf8 cnwb.py check
       - run: python -B -X utf8 -m unittest discover -s tests
+      - if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        run: python -B -X utf8 cnwb.py check --release

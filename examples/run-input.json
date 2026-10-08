@@ -1,0 +1,16 @@
+{
+  "generation_id": "synthetic-A15-round-1",
+  "model_id": "synthetic-model",
+  "evaluation_id": "synthetic-A15-judge-r1",
+  "judge_id": "synthetic-judge",
+  "revision": 1,
+  "synthetic": true,
+  "works": [
+    {
+      "task_id": "A15",
+      "answer_file": "answer.txt",
+      "B1_file": "B1.json",
+      "B2_file": "B2.json"
+    }
+  ]
+}

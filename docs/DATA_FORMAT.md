@@ -4,6 +4,8 @@
 
 ## 作品记录
 
+不必手填作品正文与哈希：`cnwb.py assemble`可从小清单生成下方两类记录，完整命令见[快速使用](QUICKSTART.md)。清单必填generation_id、model_id、evaluation_id、judge_id、正整数revision和works；每个work必填task_id、answer_file，可选B1_file、B2_file；可选布尔synthetic只用于技术样例。路径相对于清单所在目录。作品按原字节解码，响应经接收契约核验；未供给的评审不会补成零或伪造结果。
+
 ```json
 {
   "schema_version": 1,
@@ -39,7 +41,7 @@ id标识一次生成轮次，不能只用模型名覆盖多轮。task_id为短ID
 
 上述B1空对象仅表示结构位置，实际B1必须使用动态请求中`output_contract.schema`定义的完整对象，不能只填grade。stage、材料哈希、完整任务标识（如CNWB-S32-A15）和协议常量保持逐字一致；外层task_id使用A15短ID。B2只在B1有入围维度时提供，且指定维度集合必须完全匹配。
 
-`cnwb.py receive`产出的是接收证据包，包含`review`、原始文本、容错和附录。组装B1/B2时取其中`review`，不是整个证据包。可选`projection`如已保存，计分时必须与本版投影函数的重算结果完全相同，不能当作可信分数输入。
+`cnwb.py receive`产出的是接收证据包，包含`review`、原始文本、容错和附录。手工构造B1/B2字段时取其中`review`，不是整个证据包；使用`assemble`时直接指定证据文件，工具重放原始响应并核验`review`和原始哈希后提取。也可指定原始响应文件。生成的评审记录不复制HTTP、接收轨迹和附录，源证据仍留在原文件。可选`projection`如已保存，计分时必须与本版投影函数的重算结果完全相同，不能当作可信分数输入。
 
 交换schema位于tools/schemas/；它描述外围JSON类型，不能代替精确的动态SJ6 schema、哈希和阶段检查。`score`按真实作品重新构造schema并执行SJ6投影。
 

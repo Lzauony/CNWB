@@ -50,7 +50,7 @@ Python 3.10+，仅使用标准库，支持Windows/Linux/macOS。克隆后在根�
 ```bash
 git clone https://github.com/Lzauony/CNWB.git
 cd CNWB
-python -B -X utf8 cnwb.py check
+python -B -X utf8 cnwb.py check --release
 python -B -X utf8 cnwb.py leaderboard
 ```
 
@@ -63,7 +63,7 @@ python -B -X utf8 cnwb.py rank out/demo-score.json --output out/demo-ranking.jso
 
 示例全部等级为3，预期总分60，不是模型实测。输出写入新文件，不覆盖既有结果。
 
-测评自己的模型：按[快速使用](docs/QUICKSTART.md)完成 **创作 → B1 → 入围维度独立B2 → 校验 → 计分与排名**。使用者自行调用模型，仓库工具负责构造请求、接收响应及离线算分。B1判1—4级或null；数字4的维度进入独立B2，B2判1—5级或null并覆盖对应B1。
+测评自己的模型：按[快速使用](docs/QUICKSTART.md)完成 **创作 → B1 → 入围维度独立B2 → 组装 → 计分与排名**。使用者自行调用模型，仓库工具负责构造请求、接收响应及离线算分。`assemble`读取作品和响应文件清单，自动计算哈希并生成计分记录。B1判1—4级或null；数字4的维度进入独立B2，B2判1—5级或null并覆盖对应B1。
 
 ## 从哪里开始
 
@@ -85,6 +85,6 @@ python -B -X utf8 cnwb.py rank out/demo-score.json --output out/demo-ranking.jso
 
 代码采用[MIT](LICENSE)；项目编写的题目、协议与文档采用[CC BY-SA 4.0](LICENSE-DATA)。第三方背景资料见[材料来源](benchmark/SOURCES.md)，作品与其他数据见[数据使用说明](docs/DATA_USE.md)。引用使用[CITATION.cff](CITATION.cff)，注明CNWB v1.0与SJ6 v1.0。
 
-[贡献](.github/CONTRIBUTING.md) · [安全](.github/SECURITY.md) · [数据卡](docs/DATASET_CARD.md) · [软件发布说明](CHANGELOG.md)（当前1.0.3）
+[贡献与材料维护](.github/CONTRIBUTING.md) · [安全](.github/SECURITY.md) · [数据卡](docs/DATASET_CARD.md) · [软件发布说明](CHANGELOG.md)（当前1.0.4）
 
 文档与使用流程参考了[WritingBench](https://github.com/X-PLUG/WritingBench)、[EQ-Bench Creative Writing](https://github.com/EQ-bench/creative-writing-bench)、[EQ-Bench Longform Writing](https://github.com/EQ-bench/longform-writing-bench)和[LLM Creative Story-Writing Benchmark](https://github.com/lechmazur/writing)的公开说明；未使用其题目、代码或模型结果。

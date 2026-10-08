@@ -50,13 +50,15 @@ Python 3.10+, standard library only; Windows/Linux/macOS. No dependency installa
 ```bash
 git clone https://github.com/Lzauony/CNWB.git
 cd CNWB
-python -B -X utf8 cnwb.py check
+python -B -X utf8 cnwb.py check --release
 python -B -X utf8 cnwb.py leaderboard
 python -B -X utf8 cnwb.py score --generation examples/generation.json --evaluation examples/evaluation.json --output out/demo-score.json
 python -B -X utf8 cnwb.py rank out/demo-score.json --output out/demo-ranking.json
 ```
 
-The synthetic example assigns grade 3 on every axis, yielding 60; it is not a model result. Outputs never overwrite existing files. For real evaluations, follow the [workflow](docs/QUICKSTART.md): generation → B1 → independent B2 for eligible axes → validation → scoring and ranking. Supply your own model client; these tools run offline.
+The synthetic example assigns grade 3 on every axis, yielding 60; it is not a model result. Outputs never overwrite existing files. For real evaluations, follow the [workflow](docs/QUICKSTART.md): generation → B1 → independent B2 for eligible axes → assembly → scoring and ranking. `assemble` reads a small list of work and response files, computes hashes and validates records. Supply your own model client; these tools run offline.
+
+Use `check` while developing tools or documentation; `check --release` verifies exact release inventory and hashes. Both protect the frozen benchmark materials. See [contributor guidance](.github/CONTRIBUTING.md) for material/template relationships and the maintainer-only `manifest` preview/update workflow.
 
 ## Repository guide
 
@@ -78,6 +80,6 @@ Public tasks do not establish unseen-task generalization. Scores are descriptive
 
 Code: [MIT](LICENSE); project-authored materials: [CC BY-SA 4.0](LICENSE-DATA). See [sources](benchmark/SOURCES.md) and [data use](docs/DATA_USE.md). Cite [CITATION.cff](CITATION.cff), specifying CNWB v1.0 / SJ6 v1.0.
 
-[Contributing](.github/CONTRIBUTING.md) · [Security](.github/SECURITY.md) · [Dataset card](docs/DATASET_CARD.md) · [Software releases](CHANGELOG.md) (current: 1.0.3)
+[Contributing](.github/CONTRIBUTING.md) · [Security](.github/SECURITY.md) · [Dataset card](docs/DATASET_CARD.md) · [Software releases](CHANGELOG.md) (current: 1.0.4)
 
 Documentation references: [WritingBench](https://github.com/X-PLUG/WritingBench), [EQ-Bench](https://github.com/EQ-bench/creative-writing-bench) and [Story-Writing Benchmark](https://github.com/lechmazur/writing). Their tasks, code and results are not used here.

@@ -1,6 +1,5 @@
 """CNWB public reference release: offline requests, validation and scoring."""
 import argparse
-import hashlib
 import json
 import sys
 from pathlib import Path
@@ -11,6 +10,8 @@ import protocol
 import scoring
 import intake
 import leaderboard
+import assembly
+import maintenance
 
 
 def text(path):
@@ -18,51 +19,51 @@ def text(path):
     return Path(path).read_bytes().decode('utf-8')
 
 
-def write(path, value):
+def output_path(path):
     target = Path(path).resolve()
-    protected = [ROOT / name for name in ('benchmark', 'tools', 'schemas', 'docs', 'examples', 'results')]
     if target.is_relative_to(ROOT) and not target.is_relative_to(ROOT / 'out'):
         raise ValueError('Inside this release, save outputs only under out/')
-    if any(target.is_relative_to(p) for p in protected):
-        raise ValueError('Cannot overwrite release materials')
     if target.exists():
         raise ValueError('Output exists; choose a new path')
-    target.parent.mkdir(parents=True, exist_ok=True)
-    target.write_text(json.dumps(value, ensure_ascii=False, indent=2, allow_nan=False) + '\n', encoding='utf-8')
+    return target
 
 
-def check():
-    manifest_path = ROOT / 'tools/manifests/release.json'
-    manifest = scoring.read(manifest_path)
-    actual = {p.relative_to(ROOT).as_posix() for p in ROOT.rglob('*') if p.is_file()
-              and not any(x in p.relative_to(ROOT).parts for x in ('.git', '__pycache__', 'out', '.venv'))
-              and p != manifest_path}
-    scoring.require(actual == set(manifest['files']), 'Unexpected or missing release files')
-    for name, digest in manifest['files'].items():
-        scoring.require(hashlib.sha256((ROOT / name).read_bytes()).hexdigest() == digest,
-                        'Release hash mismatch: ' + name)
-    tasks = protocol.tasks()
-    scoring.require(len(tasks) == 32 and len({t['id'] for t in tasks}) == 32, 'Task inventory mismatch')
-    coverage = {d: sum(d in t['focus'] for t in tasks) for d in ('T1', 'T2', 'T3', 'T4', 'T5', 'T6')}
-    scoring.require(list(coverage.values()) == [19, 16, 15, 19, 12, 15], 'Coverage mismatch')
-    result = scoring.score(scoring.read(ROOT / 'examples/generation.json'),
-                           scoring.read(ROOT / 'examples/evaluation.json'))
-    scoring.require(result['scopes']['all32']['total'] == 60, 'Synthetic smoke check failed')
-    for name, english in (('README.md', False), ('README.en.md', True)):
-        readme = (ROOT / name).read_text(encoding='utf-8')
-        table = readme.split(leaderboard.START)[1].split(leaderboard.END)[0].strip()
-        scoring.require(table == leaderboard.markdown(leaderboard.load(), english),
-                        'Homepage leaderboard does not match public snapshot: ' + name)
-    print(json.dumps(dict(verified=True, tasks=32, coverage=coverage, files=len(actual), api_calls=0)))
+def write_many(items):
+    targets = [(output_path(path), (json.dumps(value, ensure_ascii=False, indent=2, allow_nan=False) + '\n').encode('utf-8'))
+               for path, value in items]
+    scoring.require(len({path for path, _ in targets}) == len(targets), 'Output paths must be distinct')
+    created = []
+    try:
+        for path, content in targets:
+            path.parent.mkdir(parents=True, exist_ok=True)
+            with path.open('xb') as handle:
+                created.append(path)
+                handle.write(content)
+    except OSError:
+        for path in created:
+            path.unlink()
+        raise
+
+
+def write(path, value):
+    write_many([(path, value)])
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     sub = parser.add_subparsers(dest='command', required=True)
-    sub.add_parser('check')
+    p = sub.add_parser('check', help='Check frozen materials, local links and offline behavior')
+    p.add_argument('--release', action='store_true', help='Also require exact release file inventory and hashes')
+    p = sub.add_parser('manifest', help='Preview or update reviewed software release manifests (requires Git)')
+    p.add_argument('--version', required=True)
+    p.add_argument('--write', action='store_true', help='Explicitly update only the two maintenance manifests')
     sub.add_parser('tasks')
     p = sub.add_parser('leaderboard', help='Display the published two-judge average leaderboard')
     p.add_argument('--output', help='Save full-precision aggregate JSON instead of printing the table')
+    p = sub.add_parser('assemble', help='Assemble work files and B1/B2 responses from a local input list')
+    p.add_argument('--input', required=True)
+    p.add_argument('--generation-output', required=True)
+    p.add_argument('--evaluation-output', required=True)
     p = sub.add_parser('prompt')
     p.add_argument('--task', required=True)
     p.add_argument('--answer')
@@ -93,7 +94,15 @@ def main():
     p.add_argument('--output', required=True)
     args = parser.parse_args()
     if args.command == 'check':
-        check()
+        print(json.dumps(maintenance.check(args.release)))
+        return
+    if args.command == 'manifest':
+        print(json.dumps(maintenance.update_manifests(args.version, args.write), ensure_ascii=False))
+        return
+    if args.command == 'assemble':
+        generation, evaluation = assembly.assemble(args.input)
+        write_many([(args.generation_output, generation), (args.evaluation_output, evaluation)])
+        print('Saved generation and evaluation records. API calls: 0.')
         return
     if args.command == 'leaderboard':
         entries = leaderboard.load()
