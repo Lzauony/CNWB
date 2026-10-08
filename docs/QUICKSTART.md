@@ -5,6 +5,7 @@ Python 3.10+，无需pip安装。以下命令在本包根目录执行，Windows 
 ## 1. 核验与测试
 
 ```bash
+python -B -X utf8 cnwb.py leaderboard
 python -B -X utf8 cnwb.py check
 python -B -X utf8 -m unittest discover -s tests
 python -B -X utf8 cnwb.py tasks

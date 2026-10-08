@@ -1,6 +1,6 @@
 # 数据与材料使用
 
-代码采用[MIT](LICENSE)；项目编写的题目、协议及文档采用[CC BY-SA 4.0](LICENSE-DATA)，使用时保留署名、版本、来源和改动说明。第三方资料的来源见[benchmark/SOURCES.md](benchmark/SOURCES.md)，项目许可不重新授予第三方权利。
+代码采用[MIT](../LICENSE)；项目编写的题目、协议及文档采用[CC BY-SA 4.0](../LICENSE-DATA)，使用时保留署名、版本、来源和改动说明。第三方资料的来源见[benchmark/SOURCES.md](../benchmark/SOURCES.md)，项目许可不重新授予第三方权利。
 
 仓库公开32题、SJ6协议、请求模板、离线工具、合成示例与测试，以及榜单汇总快照。真实模型作品可在[网站](https://llmstory.github.io/#library)阅读，仓库不附带这些作品、逐篇评分或评语，也不包含账户、凭证或传输日志。合成示例不是模型实测、人工金标或文学范文。
 

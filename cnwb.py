@@ -10,6 +10,7 @@ sys.path.insert(0, str(ROOT / 'tools'))
 import protocol
 import scoring
 import intake
+import leaderboard
 
 
 def text(path):
@@ -31,10 +32,11 @@ def write(path, value):
 
 
 def check():
-    manifest = scoring.read(ROOT / 'release-manifest.json')
+    manifest_path = ROOT / 'tools/manifests/release.json'
+    manifest = scoring.read(manifest_path)
     actual = {p.relative_to(ROOT).as_posix() for p in ROOT.rglob('*') if p.is_file()
               and not any(x in p.relative_to(ROOT).parts for x in ('.git', '__pycache__', 'out', '.venv'))
-              and p.name != 'release-manifest.json'}
+              and p != manifest_path}
     scoring.require(actual == set(manifest['files']), 'Unexpected or missing release files')
     for name, digest in manifest['files'].items():
         scoring.require(hashlib.sha256((ROOT / name).read_bytes()).hexdigest() == digest,
@@ -46,6 +48,11 @@ def check():
     result = scoring.score(scoring.read(ROOT / 'examples/generation.json'),
                            scoring.read(ROOT / 'examples/evaluation.json'))
     scoring.require(result['scopes']['all32']['total'] == 60, 'Synthetic smoke check failed')
+    for name, english in (('README.md', False), ('README.en.md', True)):
+        readme = (ROOT / name).read_text(encoding='utf-8')
+        table = readme.split(leaderboard.START)[1].split(leaderboard.END)[0].strip()
+        scoring.require(table == leaderboard.markdown(leaderboard.load(), english),
+                        'Homepage leaderboard does not match public snapshot: ' + name)
     print(json.dumps(dict(verified=True, tasks=32, coverage=coverage, files=len(actual), api_calls=0)))
 
 
@@ -54,6 +61,8 @@ def main():
     sub = parser.add_subparsers(dest='command', required=True)
     sub.add_parser('check')
     sub.add_parser('tasks')
+    p = sub.add_parser('leaderboard', help='Display the published two-judge average leaderboard')
+    p.add_argument('--output', help='Save full-precision aggregate JSON instead of printing the table')
     p = sub.add_parser('prompt')
     p.add_argument('--task', required=True)
     p.add_argument('--answer')
@@ -85,6 +94,14 @@ def main():
     args = parser.parse_args()
     if args.command == 'check':
         check()
+        return
+    if args.command == 'leaderboard':
+        entries = leaderboard.load()
+        if args.output:
+            write(args.output, dict(scope='all32', judge_ids=list(leaderboard.JUDGES),
+                                    weights=[0.5, 0.5], rows=entries))
+        else:
+            print(leaderboard.markdown(entries))
         return
     if args.command == 'tasks':
         titles = scoring.read(ROOT / 'benchmark/display_titles.json')

@@ -6,5 +6,5 @@ LICENSE -text
 LICENSE-DATA -text
 results/published-leaderboard.json -text
 examples/** -text
-source-manifest.json -text
-release-manifest.json -text
+tools/manifests/source.json -text
+tools/manifests/release.json -text

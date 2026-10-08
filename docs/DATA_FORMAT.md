@@ -41,7 +41,7 @@ id标识一次生成轮次，不能只用模型名覆盖多轮。task_id为短ID
 
 `cnwb.py receive`产出的是接收证据包，包含`review`、原始文本、容错和附录。组装B1/B2时取其中`review`，不是整个证据包。可选`projection`如已保存，计分时必须与本版投影函数的重算结果完全相同，不能当作可信分数输入。
 
-交换schema位于schemas/；它描述外围JSON类型，不能代替精确的动态SJ6 schema、哈希和阶段检查。`score`按真实作品重新构造schema并执行SJ6投影。
+交换schema位于tools/schemas/；它描述外围JSON类型，不能代替精确的动态SJ6 schema、哈希和阶段检查。`score`按真实作品重新构造schema并执行SJ6投影。
 
 ## 分数与覆盖率
 

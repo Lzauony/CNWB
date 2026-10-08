@@ -22,4 +22,4 @@ SOFTWARE.
 
 Scope: executable code, tests, website HTML/CSS/JavaScript, and original SVG.
 Benchmark text, project prose documentation, and model-generated records are
-covered by LICENSE-DATA and DATA_USE.md instead.
+covered by LICENSE-DATA and docs/DATA_USE.md instead.

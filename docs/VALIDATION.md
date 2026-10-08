@@ -5,7 +5,7 @@ python -B -X utf8 cnwb.py check
 python -B -X utf8 -m unittest discover -s tests
 ```
 
-release-manifest.json绑定公开包全部文件，source-manifest.json绑定本版题库、协议、请求模板与核心工具文件。该清单用于完整性检查，不是可信第三方签名或文学质量认证。修改代码/材料需新版本及新清单，版本说明须记录实际变更。
+tools/manifests/release.json绑定公开包全部文件，tools/manifests/source.json绑定本版题库、协议、请求模板与核心工具文件。该清单用于完整性检查，不是可信第三方签名或文学质量认证。修改代码/材料需新版本及新清单，版本说明须记录实际变更。
 
 测试使用明确标记的合成输入，覆盖：
 
