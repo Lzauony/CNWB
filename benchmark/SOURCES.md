@@ -4,8 +4,8 @@
 
 ## 采用的公开依据
 
-1. [英国科学与工业博物馆：Global Threads](https://blog.scienceandindustrymuseum.org.uk/global-threads/)，Katie Belshaw，2021-11-30。已读取正文。其对约1820年曼彻斯特棉纺厂图像的介绍，支持19世纪初当地已有大型、多层、蒸汽驱动棉纺厂的背景。未将文中1927年机器的细节移用于1830年代，也未推断所有工厂使用相同设备。
-2. [英国议会：The 1833 Factory Act](https://www.parliament.uk/about/living-heritage/transformingsociety/livinglearning/19thcentury/overview/factoryact/)。已读取正文。支持该法规定童工年龄、未成年人工时及部分教育安排，设置监察机制但早期人手不足、存在规避的背景。任务不考具体条文、小时数或修法细节，也不把法规等同实际全面落实。
+1. [英国科学与工业博物馆：Global Threads](https://blog.scienceandindustrymuseum.org.uk/global-threads/)，Katie Belshaw，2021-11-30。其对约1820年曼彻斯特棉纺厂图像的介绍，支持19世纪初当地已有大型、多层、蒸汽驱动棉纺厂的背景。未将文中1927年机器的细节移用于1830年代，也未推断所有工厂使用相同设备。
+2. [英国议会：The 1833 Factory Act](https://www.parliament.uk/about/living-heritage/transformingsociety/livinglearning/19thcentury/overview/factoryact/)。支持该法规定童工年龄、未成年人工时及部分教育安排，设置监察机制但早期人手不足、存在规避的背景。任务不考具体条文、小时数或修法细节，也不把法规等同实际全面落实。
 
 蒸汽动力与电力的区分作为基本技术边界；机器仍须由人操作和配合，不能将“工业革命”理解成全自动生产。任务不设置交通禁则，不宣称当地没有铁路、邮递或其他当时可能存在的传信方式。
 
