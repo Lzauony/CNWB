@@ -5,6 +5,7 @@ permissions:
 jobs:
   validate:
     strategy:
+      fail-fast: false
       matrix:
         os: [ubuntu-latest, windows-latest]
         python: ['3.10', '3.13']
@@ -15,6 +16,20 @@ jobs:
         with:
           python-version: ${{ matrix.python }}
       - run: python -B -X utf8 cnwb.py check
-      - run: python -B -X utf8 -m unittest discover -s tests
+      - name: Test offline workflows
+        shell: python
+        run: |
+          import os
+          import subprocess
+          import sys
+          from pathlib import Path
+          result = subprocess.run(
+              [sys.executable, '-B', '-X', 'utf8', '-m', 'unittest', 'discover', '-s', 'tests', '-v'],
+              capture_output=True, text=True, encoding='utf-8')
+          log = result.stdout + result.stderr
+          print(log)
+          Path(os.environ['GITHUB_STEP_SUMMARY']).write_text(
+              '## Offline tests\n\n```text\n' + log + '\n```\n', encoding='utf-8')
+          sys.exit(result.returncode)
       - if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
         run: python -B -X utf8 cnwb.py check --release
