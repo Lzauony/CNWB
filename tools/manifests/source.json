@@ -306,7 +306,7 @@
     "tools/assembly.py": "f3bbd77b824c076365f56b79f1826dc444b0e6cd8aa3b099f83e646a42340f32",
     "tools/intake.py": "20396c7e87e115294a1734e95229a5f7dea84e44f9e84516a97d3f8a7580e1e9",
     "tools/leaderboard.py": "3750e2cf1daa88f57cec1a0a13a37e2ae18e17f7d6983f972b8143df4b2e50ce",
-    "tools/maintenance.py": "04647b8176710bc0f2f71462ade5083a1fac77b7373ca5e06df281bc1ac56822",
+    "tools/maintenance.py": "ae5dd2e77bf74193ae97a6f097ad40a74f20cc93577a00fbcb4da21fbce8ad01",
     "tools/protocol.py": "3ee571b1a6662e189f589aba9b3884b9704fdfb2e7a58d6594fc5b4006ec60d2",
     "tools/scoring.py": "60d9fa0eb15ba762b196f3dd249d2710ed9e50893eaec5e8d90b593ce108e2a5",
     "tools/sj6_kernel.py": "87f28700c78cb0940c535950980904e679cb0c548534ad2eacfd2ec40b741b50"

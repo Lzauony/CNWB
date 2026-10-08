@@ -40,8 +40,8 @@ python -B -X utf8 -m unittest discover -s tests
 4. 预览清单，再明确写入清单：
 
 ```bash
-python -B -X utf8 cnwb.py manifest --version 1.0.4
-python -B -X utf8 cnwb.py manifest --version 1.0.4 --write
+python -B -X utf8 cnwb.py manifest --version 1.0.5
+python -B -X utf8 cnwb.py manifest --version 1.0.5 --write
 git add tools/manifests/source.json tools/manifests/release.json
 python -B -X utf8 cnwb.py check --release
 python -B -X utf8 -m unittest discover -s tests

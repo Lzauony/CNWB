@@ -80,6 +80,6 @@ Public tasks do not establish unseen-task generalization. Scores are descriptive
 
 Code: [MIT](LICENSE); project-authored materials: [CC BY-SA 4.0](LICENSE-DATA). See [sources](benchmark/SOURCES.md) and [data use](docs/DATA_USE.md). Cite [CITATION.cff](CITATION.cff), specifying CNWB v1.0 / SJ6 v1.0.
 
-[Contributing](.github/CONTRIBUTING.md) · [Security](.github/SECURITY.md) · [Dataset card](docs/DATASET_CARD.md) · [Software releases](CHANGELOG.md) (current: 1.0.4)
+[Contributing](.github/CONTRIBUTING.md) · [Security](.github/SECURITY.md) · [Dataset card](docs/DATASET_CARD.md) · [Software releases](CHANGELOG.md) (current: 1.0.5)
 
 Documentation references: [WritingBench](https://github.com/X-PLUG/WritingBench), [EQ-Bench](https://github.com/EQ-bench/creative-writing-bench) and [Story-Writing Benchmark](https://github.com/lechmazur/writing). Their tasks, code and results are not used here.
