@@ -1,6 +1,6 @@
 {
-  "protocol": "STORY32-SJ6-r0-development",
-  "task_id": "S32V2R10-A15",
+  "protocol": "CNWB-SJ6-v1",
+  "task_id": "CNWB-S32-A15",
   "artifact_step": "main",
   "answer_sha256": "8870f2df3889fc57c35d9c5a2d79afba33e18d5c046f7667ecd50128dc504f26",
   "stage": "B1",

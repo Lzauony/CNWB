@@ -1,4 +1,4 @@
-"""SJ6 r0 functions extracted without semantic edits; see provenance/source-functions.json."""
+"""SJ6 v1.0 structural validation, evidence diagnostics and B1/B2 projection."""
 from copy import deepcopy
 import hashlib
 sha=lambda text:hashlib.sha256(text.encode()).hexdigest()

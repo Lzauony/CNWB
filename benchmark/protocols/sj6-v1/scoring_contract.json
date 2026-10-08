@@ -1,0 +1,398 @@
+{
+  "profile": "CNWB-SJ6-v1",
+  "suite_id": "CNWB-STORY32-v1",
+  "external_text_anchors": false,
+  "dimensions": {
+    "T1": "叙事推进与结构",
+    "T2": "人物与关系",
+    "T3": "场景与世界",
+    "T4": "叙述与语言",
+    "T5": "生活体验与洞察",
+    "T6": "有效新意"
+  },
+  "strata": {
+    "complete_story": [
+      "A02",
+      "A03",
+      "A05",
+      "A06",
+      "A07",
+      "A08",
+      "A10",
+      "A11",
+      "A14",
+      "A15",
+      "A16",
+      "P01",
+      "P02",
+      "P03",
+      "P06",
+      "P07",
+      "P11"
+    ],
+    "dialogue_story": [
+      "A09",
+      "P10"
+    ],
+    "one_act_play": [
+      "A04",
+      "P08"
+    ],
+    "novel_opening": [
+      "A13",
+      "P05"
+    ],
+    "revision": [
+      "R03",
+      "R04"
+    ],
+    "processing_diagnostic": [
+      "X01",
+      "X03",
+      "X04"
+    ],
+    "setting": [
+      "S01",
+      "S02",
+      "S03"
+    ],
+    "outline": [
+      "O01"
+    ]
+  },
+  "delivery_forms": {
+    "complete_story": "完整故事",
+    "dialogue_story": "对话主导故事",
+    "one_act_play": "独幕短剧",
+    "novel_opening": "长篇开头",
+    "setting": "长篇设定",
+    "outline": "长篇提纲"
+  },
+  "aggregation": "先按模型、固定评委及轮次计划形成每题每维一个结果，再在维度内等权平均；形式、操作、篇幅与叙事机会分列。不得把交叉切片重复加权。",
+  "missing": "未测、技术缺失、非交付、incomplete、明确null和B2未完成分列；不补零，不缩分母冒充完整分。",
+  "selection": "保留第一份符合格式、材料对应和阶段契约的响应；空论证、错引、文学分歧或篇幅偏离不触发重抽。",
+  "b2": "仅B1数字4且非空白非交付的维度进入B2；独立1—5或null；最终覆盖B1，不平均、不择高；缺失不填4。",
+  "measurement_scope": "32道独立中文故事与规划任务，每题三维；正文28、规划4分列。维度次数按实际计划，不强求相等。未测完整长篇、真实读者效果、端到端自我修订或全部文学能力。",
+  "narrative_opportunities": {
+    "extended_time": [
+      "A06",
+      "A07",
+      "A11",
+      "P06"
+    ],
+    "sustained_conflict": [
+      "A03",
+      "P02",
+      "R04"
+    ],
+    "multi_actor": [
+      "A08",
+      "P03",
+      "P11",
+      "X01"
+    ]
+  },
+  "narrative_group_labels": {
+    "extended_time": "跨年选择与后果",
+    "sustained_conflict": "持续冲突与相互应对",
+    "multi_actor": "多方自主行动",
+    "information": "信息与时间组织",
+    "open_conception": "较开放构思",
+    "quiet": "安静与微小变化",
+    "planning": "长篇规划"
+  },
+  "narrative_interpretation": "跨年4题、持续冲突3题、多方行动4题是编题机会，非已验证子量表；标签可交叉，不增加样本或权重，不宣称稳定专项排名。",
+  "delivery_projection": {
+    "non_delivery": "空白或B1非交付：最终留空，保留原等级，不请求B2。",
+    "conflict": "B2非交付与B1交付冲突：全篇最终留空，保留两轮声明及原等级。",
+    "incomplete": "保留数字，单列状态，不充作完整32题指数。"
+  },
+  "five_localized": "局部瑕疵允许与五级共存，但须说明其位置、范围及影响，并独立证明卓越；问题实质削弱核心机制时不能只称局部而豁免。程序不认证文学证明。",
+  "diagnostic_policy": "原始数字、阶段诊断、自动引文定位和未核实状态并列；无机械诊断不等于文学论证成立。",
+  "evidence_relations": "每维证据集中保存；relations数组可同时表达正文内部及源文—作答联系，通过evidence_indices复用证据；源文单独不能证明本次等级。",
+  "cross_dimension_comparability": "六维来自不同题目组合；均值差异混有题目难度、形式和量尺差别，不解释为模型六种能力的相对强弱。跨模型同维比较也须同题、同评委及完整阶段，并列形式切片与共同完整题集。",
+  "opportunity_interpretation": "叙事组题数不是每个维度的测量次数；同时报告group × dimension及task_ids。单题观察不等于稳定子量表；题库设计覆盖不等于实测覆盖。",
+  "core_unmeasured": [
+    "完整长篇实写",
+    "自稿修订",
+    "多作品分布与多样性",
+    "真实读者效果"
+  ],
+  "planning_scales": {
+    "S01": {
+      "target_novel_chars": [
+        60000,
+        100000
+      ],
+      "submitted_chars": [
+        2000,
+        3000
+      ],
+      "form": "setting"
+    },
+    "S02": {
+      "target_novel_chars": [
+        800000,
+        800000
+      ],
+      "submitted_chars": [
+        3500,
+        5000
+      ],
+      "form": "setting"
+    },
+    "S03": {
+      "target_novel_chars": [
+        800000,
+        800000
+      ],
+      "submitted_chars": [
+        3500,
+        5000
+      ],
+      "form": "setting"
+    },
+    "O01": {
+      "target_novel_chars": [
+        200000,
+        300000
+      ],
+      "submitted_chars": [
+        4000,
+        5000
+      ],
+      "form": "outline"
+    }
+  },
+  "generation_validation": "生成API直接返回纯正文；不解析JSON或去除包装，逐字符保存。text是程序建立的本地作品字段；正常结束的空白正文记非交付，传输不完整仍失败。",
+  "generation_wire_format": "text; generation_output is the local artifact schema only",
+  "audience_adaptation": {
+    "task_id": "P07",
+    "age_range": [
+      8,
+      10
+    ],
+    "reading_mode": "independent",
+    "actual_reader_study": false
+  },
+  "version": "1.0",
+  "benchmark_id": "cnwb-story32-v1",
+  "protocol_id": "sj6-v1",
+  "weights": {
+    "T1": 0.2,
+    "T2": 0.2,
+    "T3": 0.15,
+    "T4": 0.2,
+    "T5": 0.15,
+    "T6": 0.1
+  },
+  "scopes": {
+    "all32": 32,
+    "prose28": 28,
+    "planning4": 4
+  },
+  "descriptive_index": {
+    "formula": "20 * sum(weight[d] * dimension_mean[d])",
+    "range": [
+      20,
+      100
+    ],
+    "assumption": "equally_spaced_grades_not_calibrated_ability",
+    "strict": "Require every planned task complete and every dimension observed for an overall score.",
+    "available_complete_works": "Explicit choice and reason required; retain coverage and exclusions; never zero-fill.",
+    "planning": "No T4 observations; no six-dimension overall score."
+  },
+  "double_judge": {
+    "method": "50/50 average of independent unrounded aggregates",
+    "missing": "Either corresponding score null means average null.",
+    "common_subset_recalculation": false
+  },
+  "ranking": {
+    "precision": "unrounded",
+    "ties": "competition: 1, 1, 3",
+    "null_rank": null
+  },
+  "candidate_boundary": {
+    "allowed_fields": [
+      "task",
+      "constraints",
+      "style",
+      "instructions",
+      "source"
+    ],
+    "judge_fields_excluded": [
+      "focus",
+      "observations",
+      "observation_note",
+      "profile",
+      "response_schema"
+    ],
+    "judge_protocol_is_not_candidate_input": true
+  },
+  "task_lengths": {
+    "S01": [
+      2000,
+      3000
+    ],
+    "S02": [
+      3500,
+      5000
+    ],
+    "S03": [
+      3500,
+      5000
+    ],
+    "O01": [
+      4000,
+      5000
+    ],
+    "A02": [
+      1200,
+      1800
+    ],
+    "A03": [
+      3000,
+      3500
+    ],
+    "A04": [
+      1800,
+      2600
+    ],
+    "A05": [
+      3000,
+      3500
+    ],
+    "A06": [
+      3000,
+      3500
+    ],
+    "A07": [
+      4000,
+      5000
+    ],
+    "A08": [
+      3000,
+      4000
+    ],
+    "A09": [
+      1800,
+      2600
+    ],
+    "A10": [
+      1200,
+      1800
+    ],
+    "A11": [
+      3000,
+      3500
+    ],
+    "A13": [
+      4000,
+      5000
+    ],
+    "A14": [
+      800,
+      1400
+    ],
+    "A15": [
+      3000,
+      3500
+    ],
+    "A16": [
+      1800,
+      4000
+    ],
+    "P01": [
+      3000,
+      3500
+    ],
+    "P02": [
+      3000,
+      3500
+    ],
+    "P03": [
+      3000,
+      3500
+    ],
+    "P05": [
+      4000,
+      5000
+    ],
+    "P06": [
+      3000,
+      3500
+    ],
+    "P07": [
+      1600,
+      2400
+    ],
+    "P08": [
+      1800,
+      2600
+    ],
+    "P10": [
+      1800,
+      2600
+    ],
+    "P11": [
+      3000,
+      3500
+    ],
+    "R03": [
+      1600,
+      2400
+    ],
+    "R04": [
+      3000,
+      3500
+    ],
+    "X01": [
+      3000,
+      3500
+    ],
+    "X03": [
+      3000,
+      3500
+    ],
+    "X04": [
+      1600,
+      2400
+    ]
+  },
+  "length_deviation": "Record actual effects; no automatic grade cap or retry.",
+  "format": {
+    "canonical_output": "strict work-bound schema and template",
+    "receive_tolerance": "whole JSON fence; outer BOM/whitespace; empty descriptions; identical duplicate keys; extras preserved except dimension set",
+    "evidence": "single pool per dimension; zero-based indices; multiple relations",
+    "protected_fields": "grade; delivery; expression.state; identifiers; material hashes; stage; dimensions; relation; severity",
+    "selection": "first response valid under intake contract; literary diagnostics do not retry",
+    "local_validation_required": true
+  },
+  "execution": "Offline commands only; model calls and technical retries are managed by the user external program.",
+  "genre_tasks": {
+    "wuxia": [
+      "P02"
+    ],
+    "romance": [
+      "A06"
+    ],
+    "deduction": [
+      "A15"
+    ],
+    "historical": [
+      "P06"
+    ],
+    "horror_thriller": [
+      "A05"
+    ],
+    "children_fairy_tale": [
+      "P07"
+    ]
+  },
+  "historical_materials": {
+    "task_id": "P06",
+    "provenance": "../../SOURCES.md",
+    "role": "shared_factual_background_not_literary_anchor",
+    "fiction_separately_labeled": true
+  }
+}

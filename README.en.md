@@ -1,10 +1,10 @@
 # CNWB — Chinese Narrative Writing Benchmark
 
-[中文](README.md) · Release `1.0.0-open.1` · STORY32 v2-r10 / SJ6 r0
+[中文](README.md) · Release `1.0.1` · CNWB v1.0 / SJ6 v1.0
 
 A standalone **public reference set**, not a hidden or contamination-free test: 32 Chinese narrative tasks, three assigned axes per task, a six-axis rubric, exact generation and judge message templates, offline validation, two-stage score projection, aggregation, two-judge averaging, ranking and synthetic contract tests.
 
-Python 3.10+, standard library only. No model API calls, credentials or original CLLB installation are needed.
+Python 3.10+, standard library only. The offline tools need no model API calls or credentials and run independently.
 
 ```bash
 python -B -X utf8 cnwb.py check
@@ -12,7 +12,7 @@ python -B -X utf8 -m unittest discover -s tests
 python -B -X utf8 cnwb.py score --generation examples/generation.json --evaluation examples/evaluation.json --output out/demo-score.json
 ```
 
-Examples are synthetic fixtures, not literary evaluations or model results. Real model outputs and private per-work judgments are not bundled. A previously public aggregate leaderboard snapshot is included, but it is insufficient to independently verify historical per-work grades. Imported evaluations can be recomputed offline.
+Examples are synthetic fixtures, not literary evaluations or model results. Real model outputs and private per-work judgments are not bundled. A public aggregate leaderboard snapshot is included, but it is insufficient to independently verify every per-work grade. Imported evaluations can be recomputed offline. The benchmark is CNWB v1.0 and the judge protocol is SJ6 v1.0. Use `CNWB-S32-<task>` for full task identifiers, `CNWB-SJ6-v1` in judge responses, and `sj6-v1` for the evaluation exchange protocol_id.
 
 B1 grades each assigned axis from 1 to 4 or null. Grade-4 axes require independent B2, which may assign **1 to 5 or null**, replacing B1 rather than taking a maximum. B2 never receives B1 grades or critiques. Only delivered works with three final integer grades enter complete-work aggregation. Missing, null, incomplete and pending-B2 records are never zero-filled.
 

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "benchmark_id": "cnwb-story32-v1",
-  "protocol_id": "sj6-r0",
+  "protocol_id": "sj6-v1",
   "generation_id": "synthetic-run",
   "model_id": "synthetic-model",
   "judge_id": "synthetic-judge-a",
@@ -13,7 +13,7 @@
   "missing_works": [],
   "input_sha256": {
     "generation": "f06e3c3ac54ebcd43c1d7a30855ead34f12dcbd470a3f8d4410755919b5262c8",
-    "evaluation": "8a67d1b8ba2436daceefbbd441adf4694669c7cf025b11170956d990c72a1940"
+    "evaluation": "2d76f4c622dff710395960b68a5dbdbc6c0ca256612b2193b8f57899422a13c6"
   },
   "scopes": {
     "all32": {

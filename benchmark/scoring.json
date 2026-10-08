@@ -1,13 +1,13 @@
 {
   "id": "cnwb-story32-v1",
-  "suite": "STORY32-v2-r10-development",
-  "protocol": "STORY32-SJ6-r0-development",
+  "suite": "CNWB-STORY32-v1",
+  "protocol": "CNWB-SJ6-v1",
   "dimensions": {
     "T1": "叙事推进与结构",
     "T2": "人物与关系",
     "T3": "场景与世界",
     "T4": "叙述与语言",
-    "T5": "意义与经验",
+    "T5": "生活体验与洞察",
     "T6": "有效新意"
   },
   "weights": {

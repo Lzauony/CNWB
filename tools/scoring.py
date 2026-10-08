@@ -1,4 +1,4 @@
-"""Portable offline scoring for STORY32 v2-r10 / SJ6 r0.
+"""Portable offline scoring for CNWB v1.0 / SJ6 v1.0.
 
 Raw judgments remain local. This module never sends a request or changes a grade.
 """
@@ -59,7 +59,7 @@ def validate_generation(g):
 def validate_evaluation(e, g):
     require(type(e.get('schema_version')) is int and e['schema_version'] == 1 and e.get('benchmark_id') == BENCHMARK,
             'Wrong evaluation schema or benchmark')
-    require(e.get('protocol_id') == 'sj6-r0' and e.get('generation_id') == g['id'],
+    require(e.get('protocol_id') == 'sj6-v1' and e.get('generation_id') == g['id'],
             'Wrong protocol or generation binding')
     identifier(e['id'])
     identifier(e['judge_id'])
@@ -121,7 +121,7 @@ def score(g, e, policy='strict', reason=None):
             'Available-work scoring needs an explicit documented reason')
     projections = validate_evaluation(e, g)
     missing_works = [t['id'] for t in protocol.tasks() if t['id'] not in validate_generation(g)]
-    return dict(schema_version=1, benchmark_id=BENCHMARK, protocol_id='sj6-r0',
+    return dict(schema_version=1, benchmark_id=BENCHMARK, protocol_id='sj6-v1',
                 generation_id=g['id'], model_id=g['model_id'], judge_id=e['judge_id'],
                 evaluation_id=e['id'], revision=e['revision'], missing_policy=policy,
                 missing_reason=reason, synthetic=bool(g.get('synthetic')),
@@ -149,7 +149,7 @@ def average(left, right):
                              judge_coverage=[dict(judge_id=x['judge_id'], n=x['scopes'][scope]['n'],
                                                   excluded_tasks=x['scopes'][scope]['excluded_tasks'],
                                                   missing_policy=x['missing_policy']) for x in (left, right)])
-    return dict(schema_version=1, benchmark_id=BENCHMARK, protocol_id='sj6-r0',
+    return dict(schema_version=1, benchmark_id=BENCHMARK, protocol_id='sj6-v1',
                 generation_id=left['generation_id'], model_id=left['model_id'],
                 aggregation='two_judge_equal_mean_of_independent_scores',
                 judges=[dict(judge_id=x['judge_id'], evaluation_id=x['evaluation_id'], revision=x['revision'])
@@ -163,7 +163,7 @@ def rank(records, scope='all32', metric='total'):
     rows = []
     identities = set()
     for r in records:
-        require(r['benchmark_id'] == BENCHMARK and r['protocol_id'] == 'sj6-r0', 'Wrong ranking version')
+        require(r['benchmark_id'] == BENCHMARK and r['protocol_id'] == 'sj6-v1', 'Wrong ranking version')
         kind = (r['aggregation'] + ':' + ','.join(sorted(j['judge_id'] for j in r['judges']))
                 if 'aggregation' in r else 'single_judge:' + r.get('judge_id', ''))
         identities.add(kind)

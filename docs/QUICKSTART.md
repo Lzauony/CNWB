@@ -18,7 +18,7 @@ python -B -X utf8 cnwb.py tasks
 python -B -X utf8 cnwb.py prompt --task A15 --output out/generation-A15.json
 ```
 
-输出system/user消息数组，与冻结候选消息一致。外部调用程序应只发送这些消息及预先记录的生成参数，不发送评委协议、观察项、身份或旧分。模型输出按原始Unicode文本保存，保留CRLF、BOM、标题及外围空白；正常结束与截断需要由调用方区分。
+输出system/user消息数组，与本版候选模板一致。外部调用程序应只发送这些消息及预先记录的生成参数，不发送评委协议、观察项、候选身份或已知评分。模型输出按原始Unicode文本保存，保留CRLF、BOM、标题及外围空白；正常结束与截断需要由调用方区分。
 
 本包没有HTTP客户端或队列。用户可使用自己的供应商SDK、CLI或本地模型；生成模型ID、日期、档位、参数及结束状态需记入独立运行元数据。模板不是完整HTTP请求，不保证任意供应商支持原生JSON schema。
 
@@ -71,4 +71,4 @@ python -B -X utf8 cnwb.py rank out/average-score.json --output out/average-ranki
 
 ## 运行元数据建议
 
-保存模型实际返回ID、请求模型ID、供应商、评委ID/版本、生成轮次、日期、思考档位、temperature/top_p/max_tokens、种子（若支持）、结束原因、实际用量与费用。未知值写null或明确unreported，不推测。账户标识、请求头、密钥和传输调试数据不得放入公开记录。改变题文、协议或主要生成条件时新增版本/实验ID，不覆盖旧结果。
+保存模型实际返回ID、请求模型ID、供应商、评委ID/版本、生成轮次、日期、思考档位、temperature/top_p/max_tokens、种子（若支持）、结束原因、实际用量与费用。未知值写null或明确unreported，不推测。账户标识、请求头、密钥和传输调试数据不得放入公开记录。改变题文、协议或主要生成条件时新增版本/实验ID，不覆盖已有结果。

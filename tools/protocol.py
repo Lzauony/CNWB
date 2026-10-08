@@ -1,4 +1,4 @@
-"""Standalone reconstruction of the frozen SJ6 r0 requests; no network access."""
+"""CNWB v1.0 / SJ6 v1.0 request construction; no network access."""
 import hashlib
 import json
 from functools import lru_cache

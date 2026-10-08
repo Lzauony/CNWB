@@ -9,7 +9,7 @@
     "benchmark_id": {"const": "cnwb-story32-v1"},
     "id": {"type": "string", "pattern": "^[a-zA-Z0-9][a-zA-Z0-9._-]{0,180}$"},
     "generation_id": {"type": "string"}, "judge_id": {"type": "string"},
-    "protocol_id": {"const": "sj6-r0"}, "revision": {"type": "integer", "minimum": 1},
+    "protocol_id": {"const": "sj6-v1"}, "revision": {"type": "integer", "minimum": 1},
     "synthetic": {"type": "boolean"},
     "reviews": {"type": "array", "maxItems": 32, "items": {
       "type": "object", "required": ["task_id", "answer_sha256", "B1"],

@@ -4,14 +4,14 @@ title: "CNWB: Chinese Narrative Writing Benchmark — Public Reference Release"
 type: software
 authors:
   - name: "CNWB contributors"
-version: 1.0.0-open.1
-date-released: 2026-10-08
+version: 1.0.1
+date-released: "2026-10-08"
 license:
   - MIT
   - CC-BY-SA-4.0
 url: "https://llmstory.github.io/"
 repository-code: "https://github.com/Lzauony/CNWB"
-abstract: "STORY32 v2-r10 / SJ6 r0 public reference tasks and offline validation, scoring and synthetic tests. Not a hidden or contamination-free test."
+abstract: "CNWB v1.0 / SJ6 v1.0 public reference tasks and offline validation, scoring and synthetic tests. Not a hidden or contamination-free test."
 keywords:
   - Chinese narrative writing
   - creative writing evaluation
