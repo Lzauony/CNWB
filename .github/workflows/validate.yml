@@ -20,16 +20,28 @@ jobs:
         shell: python
         run: |
           import os
+          import re
           import subprocess
           import sys
           from pathlib import Path
+          sys.stdout.reconfigure(encoding='utf-8')
           result = subprocess.run(
               [sys.executable, '-B', '-X', 'utf8', '-m', 'unittest', 'discover', '-s', 'tests', '-v'],
               capture_output=True, text=True, encoding='utf-8')
           log = result.stdout + result.stderr
-          print(log)
+          failed = re.findall(r'^(?:ERROR|FAIL): (test_[a-zA-Z0-9_]+) \(([a-zA-Z0-9_.]+)\)', log, re.MULTILINE)
+          types = sorted(set(re.findall(r'^([A-Za-z]+(?:Error|Exception)):', log, re.MULTILINE)))
+          modules = sorted(set(re.findall(r"No module named '([A-Za-z0-9_.]+)'", log)))
+          summary = ('Exit code: ' + str(result.returncode) + '\n'
+                     + 'Failed tests: ' + repr(failed) + '\n'
+                     + 'Exception types: ' + repr(types) + '\n'
+                     + 'Missing modules: ' + repr(modules))
+          print(summary)
           Path(os.environ['GITHUB_STEP_SUMMARY']).write_text(
-              '## Offline tests\n\n```text\n' + log + '\n```\n', encoding='utf-8')
+              '## Offline tests\n\n```text\n' + summary + '\n```\n', encoding='utf-8')
+          if result.returncode:
+              message = summary.replace('%', '%25').replace('\r', '%0D').replace('\n', '%0A')
+              print('::error title=Offline tests failed::' + message)
           sys.exit(result.returncode)
       - if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
         run: python -B -X utf8 cnwb.py check --release
