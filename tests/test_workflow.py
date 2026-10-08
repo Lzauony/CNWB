@@ -164,6 +164,11 @@ class MaintenanceTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'Frozen material changed'):
             maintenance.manifest_plan(self.folder, '1.0.4')
 
+    def test_manifest_normalizes_root_before_boundary_checks(self):
+        source, release, report = maintenance.manifest_plan(self.folder / 'tools' / '..', '1.0.4')
+        self.assertEqual(report['release'], '1.0.4')
+        self.assertEqual(json.loads(release)['files'][maintenance.SOURCE], hashlib.sha256(source).hexdigest())
+
     def test_untracked_and_private_files_cannot_enter_manifest(self):
         path = self.folder / '.env'
         path.write_bytes(b'not a real secret')

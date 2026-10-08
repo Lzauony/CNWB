@@ -95,6 +95,7 @@ def encoded(value, previous):
 
 
 def manifest_plan(root, version):
+    root = Path(root).resolve()
     scoring.require(bool(re.fullmatch(r'\d+\.\d+\.\d+', version)), 'Use a software version such as 1.0.4')
     source = scoring.read(root / SOURCE)
     old = scoring.read(root / RELEASE)
